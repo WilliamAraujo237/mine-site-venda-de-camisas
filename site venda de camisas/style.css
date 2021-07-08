@@ -1,12 +1,23 @@
+/* cores usadas
+ body:#7AB8BF
+ header:#012E40
+ h1:#F2F2F2
+ li:#038C8C
+ borda img:orangered
+ cor extra, pode ser usado:#026873
+*/
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
-    background-color: aqua;
+    background-color:#7AB8BF;
 } header{
     text-align: center;
-    background-color: rgb(69, 69, 73);
+    background-color:#012E40;
+}
+h1{
+    color: #F2F2F2;
 }
 #opções{
     display: flex;
@@ -16,7 +27,7 @@ body{
     margin-left: 800px;
 }
 .opção-individual{
-    background-color: rgb(39, 39, 39);
+    background-color:#038C8C;
     font-size: 20px;
     padding: 7px;
     color: blanchedalmond;
@@ -24,6 +35,18 @@ body{
     margin-top: 7px;
 }
 .camisa{
-    width: 50%; 
-    border: orangered,7px,7px;
+    padding:10px;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+img{
+    border: orangered solid;
+    border-width:3px,3px,0.1px;
+}
+p{
+    width: 300px;
+    text-align:left;
+    text-justify:auto;
 }
