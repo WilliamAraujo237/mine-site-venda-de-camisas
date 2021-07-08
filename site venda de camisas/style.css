@@ -33,6 +33,12 @@ h1{
     color: blanchedalmond;
     border-radius: 7px;
     margin-top: 7px;
+    transition: 0.8s;
+    font-size: 13px; 
+    text-align: center;
+} 
+.opção-individual:hover{
+    background-color:#026873;
 }
 .camisa{
     padding:10px;
@@ -50,3 +56,7 @@ p{
     text-align:left;
     text-justify:auto;
 }
+a{
+    text-decoration: none; color:#F2F2F2;
+}
+
